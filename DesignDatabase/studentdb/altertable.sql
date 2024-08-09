@@ -1,0 +1,4 @@
+-- ALTER TABLE Student RENAME TO Students 
+-- ALTER TABLE Students RENAME COLUMN class TO section; 
+-- AlTER TABLE Students DROP COLUMN last_name; 
+-- ALTER TABLE Students ADD COLUMN last_name TEXT; 
