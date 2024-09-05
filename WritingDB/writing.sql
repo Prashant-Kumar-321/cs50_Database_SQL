@@ -1,13 +1,13 @@
 -- import data from csv file in table 
 -- Case 1: table schema is already defined 
 -- Sqlite3 statement 
-".import --csv --skip 1 file.csv table "
+".import --csv --skip 1 file.csv table"
 
 -- Case2: 
 -- csv file has no pk for each row 
 -- want sqlite3 to generate pk for each record automatically 
 -- import data from csv in temporary table 
-".import --csv file.csv temporary_table "
+".import --csv file.csv temporary_table"
 -- Copy data from temporary_table to original table where we wanted to store 
 -- Syntax of copying data from one table to another table
 INSERT INTO table(column0,....)
